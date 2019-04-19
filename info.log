@@ -1,0 +1,241 @@
+2019-04-18 09:27:52,343 - werkzeug - INFO -  * Restarting with stat
+2019-04-18 09:27:54,590 - werkzeug - WARNING -  * Debugger is active!
+2019-04-18 09:27:54,641 - werkzeug - INFO -  * Debugger PIN: 323-433-729
+2019-04-18 09:27:54,710 - werkzeug - INFO -  * Running on http://0.0.0.0:9005/ (Press CTRL+C to quit)
+2019-04-18 09:28:35,055 - werkzeug - INFO - 127.0.0.1 - - [18/Apr/2019 09:28:35] "POST /api/scrape/benzinga/aapl?getDate=1&getSentiment=1&withinHours=40 HTTP/1.1" 200 -
+2019-04-18 09:52:34,655 - werkzeug - INFO -  * Restarting with stat
+2019-04-18 09:52:37,404 - werkzeug - WARNING -  * Debugger is active!
+2019-04-18 09:52:37,458 - werkzeug - INFO -  * Debugger PIN: 323-433-729
+2019-04-18 09:52:37,482 - werkzeug - INFO -  * Running on http://0.0.0.0:9005/ (Press CTRL+C to quit)
+2019-04-18 09:52:44,629 - werkzeug - INFO - 127.0.0.1 - - [18/Apr/2019 09:52:44] "POST /api/scrape/benzinga/aapl?getDate=1&getSentiment=1&withinHours=40 HTTP/1.1" 200 -
+2019-04-19 11:51:51,127 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 11:53:47,471 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.54ms
+2019-04-19 11:54:38,580 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.49ms
+2019-04-19 11:55:48,093 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 11:58:21,600 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 11:59:59,772 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:01:27,412 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.54ms
+2019-04-19 12:05:40,008 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:05:40,008 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 22, in open
+    self.LOGGER.debuf("Clients Set: {}".format(clients))
+AttributeError: 'Logger' object has no attribute 'debuf'
+2019-04-19 12:06:00,436 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 12:06:00,436 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 22, in open
+    self.LOGGER.debug("Clients Set: {}".format(clients))
+NameError: name 'clients' is not defined
+2019-04-19 12:06:18,008 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:06:24,838 - tornado.access - INFO - 101 GET /news (10.184.133.113) 1.99ms
+2019-04-19 12:06:54,497 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:07:06,674 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:07:49,742 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 12:07:53,779 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:07:57,898 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 12:10:25,083 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 12:10:25,084 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 26, in open
+    self.LOGGER.debug("Clients Set: {}".format(self.clients))
+AttributeError: 'WSHandler' object has no attribute 'clients'
+2019-04-19 12:11:04,635 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 13:09:36,110 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 13:09:43,201 - tornado.access - INFO - 101 GET /news (10.184.133.113) 1.03ms
+2019-04-19 13:23:01,611 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:11:08,208 - tornado.access - INFO - 101 GET /news (10.184.133.113) 1.00ms
+2019-04-19 14:11:31,853 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:22:08,912 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:22:09,923 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 38, in on_message
+    action = message['action']
+TypeError: string indices must be integers
+2019-04-19 14:22:50,669 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.96ms
+2019-04-19 14:22:51,674 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 38, in on_message
+    message = json.dumps(message)
+NameError: name 'json' is not defined
+2019-04-19 14:23:13,859 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.97ms
+2019-04-19 14:23:14,858 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 41, in on_message
+    action = message['action']
+TypeError: string indices must be integers
+2019-04-19 14:24:24,901 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:24:25,900 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 42, in on_message
+    action = message['action']
+TypeError: string indices must be integers
+2019-04-19 14:25:18,800 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.96ms
+2019-04-19 14:25:19,806 - tornado.application - ERROR - Uncaught exception in /news
+Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\websocket.py", line 494, in _run_callback
+    result = callback(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_handler.py", line 48, in on_message
+    self.LOGGER.debug("SERVER: {}".format(server_address))
+NameError: name 'server_address' is not defined
+2019-04-19 14:25:38,851 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:27:13,339 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:34:39,791 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 14:34:39,807 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x05D31510> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 1069, in run
+    yielded = self.gen.send(value)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 89, in _read_messages
+    self._on_message(msg)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:35:54,696 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:35:54,703 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x05502FD0> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 1069, in run
+    yielded = self.gen.send(value)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 89, in _read_messages
+    self._on_message(msg)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:43:35,308 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 14:43:35,314 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x05172EF0> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 1069, in run
+    yielded = self.gen.send(value)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 88, in _read_messages
+    self._on_message(msg)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 91, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:47:04,142 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 14:47:06,052 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x053E2FB0> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:47:06,054 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x053E24B0> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 96, in _on_message
+    value = msg['value'] if actionStatus == 'Success' else None
+NameError: name 'actionStatus' is not defined
+2019-04-19 14:48:06,294 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:48:08,308 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x050A2D70> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:48:08,309 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x050A2A90> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 96, in _on_message
+    value = msg['value'] if actionStatus == 'Success' else None
+NameError: name 'actionStatus' is not defined
+2019-04-19 14:49:02,709 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.99ms
+2019-04-19 14:49:04,736 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x05372D70> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:49:04,738 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x05372E50> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 100, in _on_message
+    self.LOGGER.debug("UUID: {}".format(self.__uid))
+AttributeError: 'scheduledScrapper' object has no attribute '_WSClient__uid'
+2019-04-19 14:49:25,972 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:49:27,890 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x056B2D90> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 92, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:50:18,920 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
+2019-04-19 14:50:20,811 - tornado.application - ERROR - Future <tornado.concurrent.Future object at 0x058C27D0> exception was never retrieved: Traceback (most recent call last):
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\site-packages\tornado\gen.py", line 292, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\types.py", line 277, in wrapped
+    coro = func(*args, **kwargs)
+  File "C:\Trung\Projects\BigData\headline_scrapper\src\websocket\ws_client.py", line 93, in _on_message
+    msg = json.loads(msg)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DRD1HC\AppData\Local\Programs\Python\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-04-19 14:52:23,666 - tornado.access - INFO - 101 GET /news (10.184.133.113) 0.50ms
