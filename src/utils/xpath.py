@@ -44,15 +44,6 @@ class Xpath:
 	def parse_arguments_from_statement(self, statement):
 		"""
 		Parse all arguments from statement
-		
-		Args:
-		    statement (TYPE): Description
-		
-		Returns:
-		    TYPE: Description
-		
-		Raises:
-		    ValueError: Description
 		"""
 		element_name = ""
 		element_attr_dict = {}
@@ -79,18 +70,6 @@ class Xpath:
 		return (element_name, element_attr_dict) if element_index is None else (element_name, element_attr_dict, element_index)
 
 	def parse_attrs_from_single_argument(self, argument):
-		"""
-		Parse all attributes from an argument
-		
-		Args:
-		    argument (TYPE): Description
-		
-		Returns:
-		    TYPE: Description
-		
-		Raises:
-		    ValueError: Description
-		"""
 		attrs = argument.split('and')
 
 		attrs_dict = {}
@@ -109,18 +88,6 @@ class Xpath:
 		return attrs_dict
 
 	def is_valid_statement(self, statement):
-		"""
-		Check if a statement is valid
-		
-		Args:
-		    statement (TYPE): Description
-		
-		Returns:
-		    TYPE: Description
-		
-		Raises:
-		    ValueError: Description
-		"""
 		# 1st statement is element_name
 		statement_arguments = statement.split('[')[1:]
 
